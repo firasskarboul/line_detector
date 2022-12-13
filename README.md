@@ -29,5 +29,10 @@ Les étapes suivies pour ce filtrage sont les suivantes :
  filtrage en fréquences
  - dilater l'image puis l'eroder
  - la dilater encore une fois puis l'éroder
- - lui appliquer finalement un filtre médian pour ne garder que la ligne qui nous interesse !
+ - lui appliquer finalement un filtre médian pour ne garder que la ligne qui nous interesse  
+
+
+# Installation des dépendances 
+Pour installer tous les packages utilisés dans ce projet, veuillez utiliser la commande :  
+$ pip install -r requirements.txt
 
