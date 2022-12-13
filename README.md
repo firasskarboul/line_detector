@@ -31,7 +31,7 @@ Les étapes suivies pour ce filtrage sont les suivantes :
  - la dilater encore une fois puis l'éroder
  - lui appliquer finalement un filtre médian pour ne garder que la ligne qui nous interesse
 
-#Images
+# Images
 ![im](https://github.com/firasskarboul/line_detector/blob/main/readme/image.png?raw=true)
 
 ![im1](https://github.com/firasskarboul/line_detector/blob/main/readme/image1.png?raw=true)
