@@ -22,25 +22,29 @@ Nous nous sommes alors penchés vers des méthodes de traitement d’images vu e
 # Méthode de l'Histogramme
 Les étapes suivies pour ce filtrage sont les suivantes :  
  - appliquer un filtre de __Canny__ à l'image dont on veut détecter la ligne  
+   
+   
+ ![im](https://github.com/firasskarboul/line_detector/blob/main/readme/image.png?raw=true)
+  
  - générer une fonction qui affiche l'histogramme de cette image en RGB grace à la librairie skimage  
  - analyser l'histogramme de fréquence pour ne garder que les nuances dominantes de l'image ( qui correpondent au terrain)
- - créer un masque qui ne garde que les nuances dominantes(noir) et supprime toutes les autres(blanc)
+ - créer un masque qui ne garde que les nuances dominantes(noir) et supprime toutes les autres(blanc)  
+   
+     ![im1](https://github.com/firasskarboul/line_detector/blob/main/readme/image1.png?raw=true)
+  
+     
  - appliquer un filtre médian de la librairie OpenCV pour lisser l'image et ainsi la nettoyer des "résidus" potentiellement non détectés par notre 
- filtrage en fréquences
+ filtrage en fréquences  
+   
+   ![im2](https://github.com/firasskarboul/line_detector/blob/main/readme/image2.png?raw=true)
+     
+     
  - dilater l'image puis l'eroder
  - la dilater encore une fois puis l'éroder
  - lui appliquer finalement un filtre médian pour ne garder que la ligne qui nous interesse
-
-# Images
-![im](https://github.com/firasskarboul/line_detector/blob/main/readme/image.png?raw=true)
-
-![im1](https://github.com/firasskarboul/line_detector/blob/main/readme/image1.png?raw=true)
-
-![im2](https://github.com/firasskarboul/line_detector/blob/main/readme/image2.png?raw=true)
-
-![im3](https://github.com/firasskarboul/line_detector/blob/main/readme/image3.png?raw=true)
-
-![im4](https://github.com/firasskarboul/line_detector/blob/main/readme/image4.png?raw=true)
+  
+  
+  ![im4](https://github.com/firasskarboul/line_detector/blob/main/readme/image4.png?raw=true)
 
 
 # Installation des dépendances 
