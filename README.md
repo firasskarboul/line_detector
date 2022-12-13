@@ -29,7 +29,18 @@ Les étapes suivies pour ce filtrage sont les suivantes :
  filtrage en fréquences
  - dilater l'image puis l'eroder
  - la dilater encore une fois puis l'éroder
- - lui appliquer finalement un filtre médian pour ne garder que la ligne qui nous interesse  
+ - lui appliquer finalement un filtre médian pour ne garder que la ligne qui nous interesse
+
+#Images
+![im](https://github.com/firasskarboul/line_detector/blob/main/readme/image.png?raw=true)
+
+![im1](https://github.com/firasskarboul/line_detector/blob/main/readme/image1.png?raw=true)
+
+![im2](https://github.com/firasskarboul/line_detector/blob/main/readme/image2.png?raw=true)
+
+![im3](https://github.com/firasskarboul/line_detector/blob/main/readme/image3.png?raw=true)
+
+![im4](https://github.com/firasskarboul/line_detector/blob/main/readme/image4.png?raw=true)
 
 
 # Installation des dépendances 
