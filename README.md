@@ -1,7 +1,7 @@
 # Détection de lignes
 __Auteurs :__  
 *Laaroussi Fatima Azzahrae*  
-*Mohamed Amine Faiz*  
+*Faiz Mohamed Amine *  
 *Karboul Firass*  
 
 # Objectif 
