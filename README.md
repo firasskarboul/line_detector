@@ -17,12 +17,15 @@ de données, en effet, ne disposant pas assez d’images de lignes pour entraîn
 nous ne pouvons pas nous aventurer dans cette piste pour la détection de lignes d'un terrain qui est en
 soit une reconnaissance complexe.
 
-Nous nous sommes alors penchés vers des méthodes de traitement d’images vu en cours d'images telles que la méthode d'érosion/dilatation, méthode du filtrage par médiane, et la méthode de recours aux informations données par l'histogramme d'une image.
+Nous nous sommes alors penchés vers des méthodes de traitement d’images vu en cours d'images telles que la méthode de la transformée de Hough, d'érosion/dilatation, méthode du filtrage par médiane, et la méthode de recours aux informations données par l'histogramme d'une image.
 
-# Méthode de l'Histogramme
+# Démarche suivie 1
+Nous nous sommes penchés sur la méthode de détection des lignes du terrain par la transformée de Hough, qui fonctionne plutot bientot lorsqu'on a une image zoomée sur le terrain. Mais elle n'est vite plus appliquable dès que des éléments extérieurs ( but, personne, stade, ...) apparaissent dans l'image.
+C'est pour cela que pour ce type d'images là, nous avons décidé de suivre la deuxième démarche.
+
+# Démarche suivie 2
 Les étapes suivies pour ce filtrage sont les suivantes :  
- - appliquer un filtre de __Canny__ à l'image dont on veut détecter la ligne (celle là par exemple)    
-   
+ - lecture de l'image dont on veut détecter la ligne   
    
  ![im](https://github.com/firasskarboul/line_detector/blob/main/readme/image.png?raw=true)
   
