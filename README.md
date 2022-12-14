@@ -21,7 +21,7 @@ Nous nous sommes alors penchés vers des méthodes de traitement d’images vu e
 
 # Méthode de l'Histogramme
 Les étapes suivies pour ce filtrage sont les suivantes :  
- - appliquer un filtre de __Canny__ à l'image dont on veut détecter la ligne  
+ - appliquer un filtre de __Canny__ à l'image dont on veut détecter la ligne (celle là par exemple)    
    
    
  ![im](https://github.com/firasskarboul/line_detector/blob/main/readme/image.png?raw=true)
